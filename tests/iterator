@@ -1,0 +1,23 @@
+program iterator
+
+declare x,i,y;
+
+procedure p1(inout num)
+{
+    i := 1;
+    forcase
+        case (i <= 10 )
+        {
+            num := num * i;
+            print(num);
+        }
+	default {
+		print(x);
+	};
+}
+#main#
+{
+    input(x);
+    call p1(inout x);
+    
+}.
