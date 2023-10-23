@@ -1,0 +1,23 @@
+program Switcher
+
+	declare x,y,c;
+
+	procedure swap(inout a, inout b )
+	{
+		c := a;
+		a := b;
+		b := c;
+	}
+
+	#main#
+
+	{
+		input(x);
+		input(y);
+		call swap(inout x, inout y);
+
+		print(x);
+		print(y);
+		
+	}.
+		

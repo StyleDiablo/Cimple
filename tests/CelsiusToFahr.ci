@@ -1,0 +1,21 @@
+program CelsiusToFahr
+	declare celsius, fahrenheit, result;
+
+	#Program that converts celsius to fahrenheit#
+
+	function calc(in num)
+	{
+		fahrenheit := ( ( 18/100) * num ) + 32;
+
+		return(fahrenheit);
+	}
+
+	#main#
+
+	{
+		input(celsius);
+
+		result := calc(in celsius);
+
+		print(result);
+	}.

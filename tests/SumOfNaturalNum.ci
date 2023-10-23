@@ -1,0 +1,24 @@
+program SumOfNaturalNum
+
+	declare num, count, sum ;
+
+	# Calculates the sum of first num natural numbers #
+
+	{
+		input(num);
+		count := 0;
+		sum := 0;
+		forcase
+			case(count <= num )
+			{
+				sum := sum + count;
+				count := count + 1;
+			}
+			default
+			{
+				print(sum);
+				print(num);
+			};
+	
+
+	}.

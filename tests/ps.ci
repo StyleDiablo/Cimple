@@ -1,0 +1,17 @@
+program ps
+	declare a , b , c ;
+
+	procedure p1(in a)
+	{
+		function f1(in x)
+		{	
+			c := a + 1;
+			return(c);
+		}
+		a := a + 1
+	}
+
+	{
+		a := b + 1;
+		call p1(in a);
+	}.
